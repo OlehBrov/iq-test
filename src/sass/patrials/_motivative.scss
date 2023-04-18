@@ -1,0 +1,47 @@
+.motivative_section {
+  flex-direction: column;
+  align-items: center;
+  background: url('../images/background/lightning_left.png'),
+    url('../images/background/lightning_right.png'),
+    url('../images/background/rain_bk2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+    &>.btn {
+        border: 1px solid #FFFFFF;
+            margin-bottom: 83px;
+            background: transparent;
+            color: #FFFFFF;
+        }
+}
+
+.motivative_header {
+    margin-top: 55px;
+    margin-bottom: 14px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.33;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+.styled-about {
+    display: block;
+  width: 100%;
+  padding: 30px 15px;
+  background-color: rgba(243, 243, 242, 0.8);
+  border-radius: 20px;
+  margin-bottom: 33px;
+}
+.about {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.44;
+
+  letter-spacing: 0.05em;
+
+  color: #181818;
+}

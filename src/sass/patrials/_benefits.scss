@@ -1,0 +1,31 @@
+.benefits_section {
+  flex-direction: column;
+  padding-top: 38px;
+  padding-bottom: 40px;
+  align-items: center;
+  background: url('../images/background/benefits.png');
+  background-repeat: no-repeat;
+  background-position: 50% 75%;
+  & > .btn {
+    margin-bottom: 0;
+  }
+}
+
+.test-results-benefits {
+  font-family: 'PT Serif';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.05em;
+
+  color: #272727;
+  margin-bottom: 200px;
+}
+.benefits-uppercase {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.benefits-lowercase {
+  text-transform: lowercase;
+}
